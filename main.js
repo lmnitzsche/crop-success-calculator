@@ -4,8 +4,6 @@
 //Soil States
 //calculation to make state
 
-//0.03 meters of waters per meter of soil
-
 
 
 
