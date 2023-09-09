@@ -9,14 +9,17 @@ body {
     justify-content: space-between;
   }
   .left {
-    flex: 1;
+    flex: .2;
     height: 500px;
+    width: 100px;
+    margin: 1vw;
     background-color: #86fb00;
     overflow: hidden;
   }
   
   .right {
     flex: 1;
+    margin: 1vw;
     height: 500px;
     background-color: #006eff;
     overflow: hidden;
