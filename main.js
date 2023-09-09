@@ -19,6 +19,15 @@ function handleCheckboxChange()
 }
 variableCheckbox.addEventListener("change", handleCheckboxChange);
 
+//Important characeristics of the top soil are: 
+var texture;
+var  OC; //Organic Carbon
+var pH;
+var TEB; //Total Exchangable Bases
+
+//texture, pH, TEB are the most important characteristics of subsoil
+
+
 //Calculate probability
 
 
