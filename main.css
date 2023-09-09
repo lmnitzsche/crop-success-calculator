@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1afaf
+  }
+
+  .gui {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left {
+    flex: 1;
+    height: 500px;
+    background-color: #86fb00;
+    overflow: hidden;
+  }
+  
+  .right {
+    flex: 1;
+    height: 500px;
+    background-color: #006eff;
+    overflow: hidden;
+  }
+
+  .sky {
+    height: 400px;
+    background-color: #006eff;
+    overflow: hidden;
+  }
+
+  .soil {
+    height: 100px;
+    background-color: brown;
+    overflow: hidden;
+  }
