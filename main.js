@@ -1,24 +1,59 @@
-const soilColor = document.querySelectorAll(".soil");
+const soilColor = document.querySelector(".soil");
+const selectElement = document.getElementById("soilmenu");
 
-//Important characeristics of the top soil are: 
-var texture = "clay"; 
+//OCP, pH, and TEB are calculated using the median of each soil type
+var OCP; 
+var pH; 
+var TEB; 
 
-var  OCP; //Organic Carbon (weight of OC / dry soil weight) * 100
-var pH; //0-14
-var TEB; //Total Exchangable Bases TEB(cmol(+)/kg)=(sum of exchangeable cations / soil weight)
-//texture, pH, TEB are the most important characteristics of subsoil
-var climate; //classify climate 1-5
-var cropType; //classify croptype 1-5
-var management; //"Management" refers to agricultural management practices that can impact crop performance. 
-//These practices include activities such as irrigation, fertilization, pest control, and cultivation techniques.
-//Classify management from 1-5
+var climate; 
+var cropType;
+var management; 
 
-function updateSoil() 
-{
-    const selectedTexture = document.getElementById("soilmenu").value;
+selectElement.addEventListener("change", function () {
+    const selectedOption = selectElement.value;
 
-    switch()
-}
+    switch (selectedOption) {
+        case "clay":
+            soilColor.style.backgroundColor = "brown";
+            pH = 7;
+            OCP = 2;
+            TEB = 25;
+            break;
+        case "sand":
+            soilColor.style.backgroundColor = "yellow";
+            pH = 6.5;
+            OCP = .2; //fix
+            TEB = 12.5;
+            break;
+        case "silty":
+            soilColor.style.backgroundColor = "gray";
+            pH = 7;
+            OCP = 2;
+            TEB = 20;
+            break;
+        case "peaty":
+            soilColor.style.backgroundColor = "darkolivegreen";
+            pH = 4.5;
+            OCP = 5;
+            TEB = 7;
+            break;
+        case "chalky":
+            soilColor.style.backgroundColor = "white";
+            pH = 8;
+            OCP = .3; 
+            TEB = 35;
+            break;
+        case "loamy":
+            soilColor.style.backgroundColor = "darkgoldenrod";
+            pH = 6.75;
+            OCP = 1.5;
+            TEB = 20;
+            break;
+        default:
+            soilColor.style.backgroundColor = "brown"; // Default color
+    }
+});
 
 function f(texture, OCP, TEB, pH) 
 {
@@ -55,16 +90,3 @@ function g(climate, cropType, management)
     const cropPerformance = climateEffect + cropTypeEffect + managementEffect; 
     return cropPerformance;
 }
-
-
-
-//Calculate probability
-
-
-//Soil States
-//calculation to make stat
-
-//Variable states
-//
-//
-//
