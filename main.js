@@ -13,6 +13,13 @@ var management; //"Management" refers to agricultural management practices that 
 //These practices include activities such as irrigation, fertilization, pest control, and cultivation techniques.
 //Classify management from 1-5
 
+function updateSoil() 
+{
+    const selectedTexture = document.getElementById("soilmenu").value;
+
+    switch()
+}
+
 function f(texture, OCP, TEB, pH) 
 {
     // Coefficients (these are arbitrary, actual values would depend on the specific crop)
