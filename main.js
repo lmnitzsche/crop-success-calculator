@@ -1,5 +1,5 @@
 const soilColor = document.querySelectorAll(".soil");
-const variableCheckbox = document.getElementById("variable");
+const soilmenu = document.getElementById("soilmenu");
 
 function handleCheckboxChange() 
 {
@@ -11,23 +11,10 @@ function handleCheckboxChange()
         case gravel:
             soil.style.backgroundColor = "grey";
         case clay:
-            soil.style.backgroundColor = "grey";
-    }
-    // Check the state of the checkboxes and perform actions based on their status
-    if (variableCheckbox.checked) 
-    {
-        soilColor.forEach(soil => {
-               
-            });
-    } 
-    else 
-    {
-        soilColor.forEach(soil => {
-            soil.style.backgroundColor = "brown";
-          });
+            soil.style.backgroundColor = "red";
     }
 }
-variableCheckbox.addEventListener("change", handleCheckboxChange);
+soilmenu.addEventListener("change", handleCheckboxChange);
 
 //Important characeristics of the top soil are: 
 var texture; //(weight of sand/silt/clay / total soil weight) * 100
