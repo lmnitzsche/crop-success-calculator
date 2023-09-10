@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>GeoHack 2023 Soil Project</h1>
+    <h1>GeoHack 2023 Crop Success Calculator</h1>
     <h4>Created by Logan Nitzsche and Caleb Sutton</h4>
     <div class = "gui">
         <div class = "left">
@@ -47,6 +47,15 @@
                     <select name="cropmenu" id="cropmenu">
                         <option value="wheat">Wheat</option>
                         <option value="rice">Rice</option>
+                        <option value="corn">Corn</option>
+                        <option value="soybeans">Soybeans</option>
+                        <option value="cotton">Cotton</option>
+                        <option value="barley">Barley</option>
+                        <option value="oats">Oats</option>
+                        <option value="potatoes">Potatoes</option>
+                        <option value="apples">Apples</option>
+                        <option value="grapes">Grapes</option>
+                        <option value="strawberries">Strawberries</option>
                     </select>
             </div>
         </div>
@@ -58,6 +67,7 @@
         </div>
     </div>
     <button id="viewData">Calculate P(Success)</button>
+    <button id="reset">Reset</button>
     <script src="main.js"></script>
 </body>
 </html>
