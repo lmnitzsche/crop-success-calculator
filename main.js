@@ -39,7 +39,7 @@ var TEB; //Total Exchangable Bases TEB(cmol(+)/kg)=(sum of exchangeable cations 
 //texture, pH, TEB are the most important characteristics of subsoil
 var climate; //classify climate 1-5
 var cropType; //classify croptype 1-5
-var management = parseInt(prompt("On a scale of 1-5, how "));; //"Management" refers to agricultural management practices that can impact crop performance. 
+var management; //"Management" refers to agricultural management practices that can impact crop performance. 
 //These practices include activities such as irrigation, fertilization, pest control, and cultivation techniques.
 //Classify management from 1-5
 
