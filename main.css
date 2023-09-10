@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
-    background-color: #f1afaf
+    background-color: #FFD700;
   }
 
   .gui {
@@ -27,7 +27,7 @@ body {
 
   .sky {
     height: 400px;
-    background-color: #006eff;
+    background-color: orange;
     overflow: hidden;
   }
 

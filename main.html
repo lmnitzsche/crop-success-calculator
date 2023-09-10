@@ -10,7 +10,7 @@
     <h4>Created by Logan Nitzsche and Caleb Sutton</h4>
     <div class = "gui">
         <div class = "left">
-            <h2>Toggles</h2>
+            <h2><u>Dropdown Menus</u></h2>
             <div class = "soilType">
                 <label for="variable">Soil Type</label>
                     <select name="soilmenu" id="soilmenu">
@@ -22,17 +22,17 @@
                         <option value="loamy">Loamy Soil</option>
                     </select>
             </div>
-            <div class="climate">
-                <label for="climatemenu">Climate</label>
+            <div class="climateType">
+                <label for="climatemenu">Climate Type</label>
                     <select name="climatemenu" id="climatemenu">
-                        <option value="Arid">Arid (1)</option>
-                        <option value="temperate">Temperate (2)</option>
-                        <option value="tropical">Tropical (3)</option>
-                        <option value="continental">Continental (4)</option>
-                        <option value="mediterranean">Mediterranean (5)</option>
+                        <option value="arid">Arid</option>
+                        <option value="temperate">Temperate</option>
+                        <option value="tropical">Tropical</option>
+                        <option value="continental">Continental</option>
+                        <option value="mediterranean">Mediterranean</option>
                     </select>
             </div>
-            <div class = "management">
+            <div class = "managementType">
                 <label for="managementmenu">Management</label>
                     <select name="managementmenu" id="managementmenu">
                         <option value="bad">Bad (1)</option>
@@ -42,11 +42,11 @@
                         <option value="great">Great (5)</option>
                     </select>
             </div>
-            <div class="crops">
+            <div class="cropType">
                 <label for="cropmenu">Crop Type</label>
                     <select name="cropmenu" id="cropmenu">
+                        <option value="wheat">Wheat</option>
                         <option value="rice">Rice</option>
-                        <option value="cotton">Cotton</option>
                     </select>
             </div>
         </div>
@@ -57,7 +57,7 @@
             </div>
         </div>
     </div>
-    <button id="viewData">View Data</button>
+    <button id="viewData">Calculate P(Success)</button>
     <script src="main.js"></script>
 </body>
 </html>
