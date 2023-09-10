@@ -19,12 +19,23 @@ function handleCheckboxChange()
 }
 variableCheckbox.addEventListener("change", handleCheckboxChange);
 
-var location;
-//f(Texture, OC%, TEB, pH) = (TextureWeight * TextureValue) + (OCWeight * OC%) + (TEBWeight * TEB) + (pHWeight * pH)
-//g(Climate, Crop Type, Management) = (ClimateWeight * ClimateFactor) + (CropTypeWeight * CropTypeFactor) + (ManagementWeight * ManagementFactor)
-
 //Important characeristics of the top soil are: 
 var texture; //(weight of sand/silt/clay / total soil weight) * 100
+var textureValue;
+
+if(texture == "sandy")
+{
+    textureValue = 80;
+}
+else if(texture == "loam")
+{
+
+}
+else if(texture == "")
+{
+    
+}
+
 var  OCP; //Organic Carbon (weight of OC / dry soil weight) * 100
 var pH; //0-14
 var TEB; //Total Exchangable Bases TEB(cmol(+)/kg)=(sum of exchangeable cations / soil weight)
