@@ -11,29 +11,44 @@
     <div class = "gui">
         <div class = "left">
             <h2>Toggles</h2>
-            <label for="variable">Soil Type</label>
-                <select name="soilmenu" id="soilmenu">
-                    <option value="dirt">Dirt</option>
-                    <option value="sand">Sand</option>
-                    <option value="gravel">Gravel</option>
-                    <option value="clay">Clay</option>
-                </select>
-            <label for="climatemenu">Climate</label>
-                <select name="climatemenu" id="climatemenu">
-                    <option value="Arid">Arid</option>
-                    <option value="temperate">Temperate</option>
-                    <option value="tropical">Tropical</option>
-                    <option value="continental">Continental</option>
-                    <option value="mediterranean">Mediterranean</option>
-                </select>
-            <label for="climatemenu">Management</label>
-                <select name="managementmenu" id="managementmenu">
-                    <option value="bad">Bad</option>
-                    <option value="sustainable">Sustainable</option>
-                    <option value="average">Average</option>
-                    <option value="good">Good</option>
-                    <option value="great">Great</option>
-                </select>
+            <div class = "soilType">
+                <label for="variable">Soil Type</label>
+                    <select name="soilmenu" id="soilmenu">
+                        <option value="clay">Clay Soil</option>
+                        <option value="sand">Sandy Soil</option>
+                        <option value="silty">Silty Soil</option>
+                        <option value="peaty">Peaty Soil</option>
+                        <option value="chalky">Chalky Soil</option>
+                        <option value="loamy">Loamy Soil</option>
+                    </select>
+            </div>
+            <div class="climate">
+                <label for="climatemenu">Climate</label>
+                    <select name="climatemenu" id="climatemenu">
+                        <option value="Arid">Arid (1)</option>
+                        <option value="temperate">Temperate (2)</option>
+                        <option value="tropical">Tropical (3)</option>
+                        <option value="continental">Continental (4)</option>
+                        <option value="mediterranean">Mediterranean (5)</option>
+                    </select>
+            </div>
+            <div class = "management">
+                <label for="managementmenu">Management</label>
+                    <select name="managementmenu" id="managementmenu">
+                        <option value="bad">Bad (1)</option>
+                        <option value="sustainable">Sustainable (2)</option>
+                        <option value="average">Average (3)</option>
+                        <option value="good">Good (4)</option>
+                        <option value="great">Great (5)</option>
+                    </select>
+            </div>
+            <div class="crops">
+                <label for="cropmenu">Crop Type</label>
+                    <select name="cropmenu" id="cropmenu">
+                        <option value="rice">Rice</option>
+                        <option value="cotton">Cotton</option>
+                    </select>
+            </div>
         </div>
         <div class = "right">
             <div class="sky">

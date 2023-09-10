@@ -1,37 +1,7 @@
 const soilColor = document.querySelectorAll(".soil");
-const soilmenu = document.getElementById("soilmenu");
-
-function handleCheckboxChange() 
-{
-    switch(state){
-        case dirt:
-            soil.style.backgroundColor = "brown";
-        case sand:
-            soil.style.backgroundColor = "yellow";
-        case gravel:
-            soil.style.backgroundColor = "grey";
-        case clay:
-            soil.style.backgroundColor = "red";
-    }
-}
-soilmenu.addEventListener("change", handleCheckboxChange);
 
 //Important characeristics of the top soil are: 
-var texture; //(weight of sand/silt/clay / total soil weight) * 100
-var textureValue;
-
-if(texture == "sandy")
-{
-    textureValue = 80;
-}
-else if(texture == "loam")
-{
-
-}
-else if(texture == "")
-{
-    
-}
+var texture = "clay"; 
 
 var  OCP; //Organic Carbon (weight of OC / dry soil weight) * 100
 var pH; //0-14
