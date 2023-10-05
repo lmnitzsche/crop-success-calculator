@@ -1,6 +1,7 @@
 body {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
+    background-image: url("photo/jungle.jpeg");
     background-color: #FFD700;
   }
 
@@ -35,4 +36,27 @@ body {
     height: 100px;
     background-color: brown;
     overflow: hidden;
+  }
+  .white {
+    color: white;
+  }
+  
+  a {
+    color: greenyellow;
+    text-decoration: none;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black, 
+    -1px 1px 0 black, 
+    1px 1px 0 black;   
+  }
+
+  a:hover {
+    color: pink;
+    font-weight: bolder;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,  
+    -1px 1px 0 #000, 
+    1px 1px 0 #000;   
   }
