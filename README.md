@@ -1,5 +1,4 @@
 # [Crop Success Predictive Tool](https://logannitzsche.com/Comprehensive-Crop-Success-Predictive-Web-Tool)
-<img width="1440" alt="Screenshot 2024-09-08 at 7 21 36 PM" src="https://github.com/user-attachments/assets/abf59529-ae90-42c4-a014-40ceec60ec54">
 
 This project is a web-based tool developed during a hackathon to predict the success rate of different crops based on environmental and management factors. The tool allows users to input soil type, climate, crop type, and management practices to receive an estimated crop success percentage.
 
@@ -42,4 +41,4 @@ This project is a web-based tool developed during a hackathon to predict the suc
    ```
 3. Open 'index.html' in your preferred web browser.
 
-   
+ <img width="1440" alt="Screenshot 2024-09-08 at 7 21 36 PM" src="https://github.com/user-attachments/assets/abf59529-ae90-42c4-a014-40ceec60ec54">  
