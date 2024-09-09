@@ -1,7 +1,10 @@
 # Crop Success Prodictive Tool
-### [Deployed Site](https://logannitzsche.com/Comprehensive-Crop-Success-Predictive-Web-Tool)
 
 This project is a web-based tool developed during a hackathon to predict the success rate of different crops based on environmental and management factors. The tool allows users to input soil type, climate, crop type, and management practices to receive an estimated crop success percentage.
+
+## Deployed Site
+[Comprehensive Crop Success Predictive Web Tool](https://logannitzsche.com/Comprehensive-Crop-Success-Predictive-Web-Tool)
+
 
 ## Features
 
